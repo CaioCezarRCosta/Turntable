@@ -1,4 +1,4 @@
-Turntable 🎶
+<h1>Turntable 🎶</h1>
 Turntable é uma loja de discos online onde os usuários podem navegar, comprar e gerenciar suas coleções de discos. Este projeto é desenvolvido em PHP com Bootstrap para um design responsivo.
 
 Funcionalidades
