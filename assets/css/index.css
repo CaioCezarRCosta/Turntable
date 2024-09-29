@@ -1,0 +1,44 @@
+.social-icons a {
+    margin: 0 10px; 
+    color: #007bff; 
+    transition: color 0.3s; 
+}
+
+.social-icons a:hover {
+    color: #0056b3; 
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #fffdff;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+}
+
+header {
+    flex: 0 0 auto;
+}
+
+section {
+    flex: 1 0 auto;
+    
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+#busca{
+ width: 12vw;
+
+}
+#buscador{
+    margin-bottom: 0;
+}
+#menu{
+    margin-top: 10px;
+    border: 1px solid #e1e0e1;
+}
