@@ -7,6 +7,4 @@ Navegação de Produtos: Visualize a lista de discos disponíveis com detalhes c
 Carrinho de Compras: Adicione discos ao carrinho e finalize a compra.
 Gerenciamento de Perfil: Usuários podem editar suas informações de perfil.
 <h2>Tecnologias Utilizadas</h2>
-Back-end: PHP
-Front-end: Bootstrap, HTML, CSS
-Banco de Dados: MySQL
+<ul> <li><strong>Back-end:</strong> PHP</li> <li><strong>Front-end:</strong> <ul> <li>Bootstrap</li> <li>HTML</li> <li>CSS</li> </ul> </li> <li><strong>Banco de Dados:</strong> MySQL</li> <li><strong>Controle de Versão:</strong> Git</li> </ul>
