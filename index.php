@@ -18,10 +18,9 @@
     </section>
 
     <section>
-        <h1>Bem-vindo à nossa loja de vinis!</h1>
+        <h1> Bem-vindo à nossa loja de vinis!</h1>
         <p>Explore nossa coleção de vinis clássicos e novos.</p>
     </section>
-
     <footer>
         <?php include 'includes/footer.php'; ?>
     </footer>
