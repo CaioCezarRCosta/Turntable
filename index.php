@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -12,51 +12,50 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent">
-        <div class="container">
-            <a class="navbar-brand text-white" href="#">
-                <img src="http://localhost/vinyl-store-project/assets/images/logo2.png" alt="Logo"
-                    style="max-height: 40px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent" style="border:1px solid green;">
+    
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Catálogo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Encomenda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Por Artista</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Por Gênero</a>
-                    </li>
-                </ul>
+        <a class="navbar-brand text-white logo" href="#">
+            <img src="http://localhost/vinyl-store-project/assets/images/logo2.png" alt="Logo" style="max-height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse " id="navbarNav" style="border:1px solid white;">
+            
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Encomenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Por Artista</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Por Gênero</a>
+                </li>
+            </ul>
 
-                <form class="form-inline mx-auto">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar vinis" aria-label="Buscar">
-                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
+            <form class="form-inline" style="margin-left: 19vw; margin-right: 19vw">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar vinis" aria-label="Buscar">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
 
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#"><i class="bi bi-cart"></i> Carrinho</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="pages/login.php"><i class="bi bi-box-arrow-in-right"></i>
-                            Login</a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><i class="bi bi-cart"></i> Carrinho</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="pages/login.php"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    
+</nav>
 
     <!-- Conteúdo Parallax -->
     <section class="parallax">
@@ -74,8 +73,23 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores qui quae deleniti cumque, vitae sapiente
         animi et iure doloribus! Sapiente, autem. Doloremque commodi nam consequatur, id adipisci soluta suscipit! Esse.
     </section>
-    <footer>
-        <?php include '/includes/footer.php'; ?>
+
+    <footer class="text-center py-3">
+        <p style="color:black">&copy; 2024 Turntable Treasures. Todos os direitos reservados.</p>
+        <a href="sobre.php">Sobre Nós</a> | 
+        <a href="contato.php">Contato</a>
+
+        <div class="social-icons mt-2">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <i class="bi bi-facebook" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                <i class="bi bi-twitter" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="https://whatsapp.com" target="_blank" aria-label="WhatsApp">
+                <i class="bi bi-whatsapp" style="font-size: 1.5rem;"></i>
+            </a>
+        </div>
     </footer>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

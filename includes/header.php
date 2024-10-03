@@ -1,10 +1,11 @@
 <head>
     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
 </head>
 <div id="header1" class="d-flex justify-content-between align-items-center p-3">
     <div id="logo">
-        <a href="index.php">
-            <img src="logo.png" alt="Logo da Página" /> 
+        <a href="http://localhost/vinyl-store-project/">
+            <img src="../assets/images/logo2.pn" alt="Logo da Página" class="logo"/> 
         </a>
     </div>
 
@@ -12,7 +13,7 @@
         <p>A melhor loja de Vinis da América Latina</p>
     </div>
 
-    <div id="icones">
+    <div id="icone d-flex justify-content-betwenn">
         <a href="../pages/login.php">
             <i class="bi bi-person"></i> Conta
         </a>

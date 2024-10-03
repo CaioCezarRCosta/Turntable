@@ -8,17 +8,19 @@
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         
         <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="../assets/css/login.css">
     </head>
     <body>
 
         <header>
-            <?php include '../includes/header.php'; ?>
+            
         </header>
-
+<section>
         <div class="container">
-            <div class="row justify-content-center" style="height: 100vh;">
-                <div class="col-md-4">
-                    <div class="card mt-5">
+            <div class="row justify-content-center ">
+                <div class="col-md-4" >
+                    <div class="card mt-5 ">
                         <div class="card-body">
                             <h5 class="card-title text-center">Login</h5>
                             <form>
@@ -53,7 +55,7 @@
                 </div>
             </div>
         </div>
-
+</section>
         <footer>
             <?php include '../includes/footer.php'; ?>
         </footer>
