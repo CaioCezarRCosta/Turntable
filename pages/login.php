@@ -6,7 +6,7 @@
         <title>Página de Login</title>
         <link rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/index.css">
+        
         <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     </head>
     <body>

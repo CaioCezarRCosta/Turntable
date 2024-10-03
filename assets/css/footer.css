@@ -1,9 +1,9 @@
 .social-icons a {
-    margin: 0 10px; /* Espaçamento horizontal entre os ícones */
-    color: #007bff; /* Cor dos ícones */
-    transition: color 0.3s; /* Transição suave para mudança de cor */
+    margin: 0 10px; 
+    color: #007bff; 
+    transition: color 0.3s; 
 }
 
 .social-icons a:hover {
-    color: #0056b3; /* Cor dos ícones ao passar o mouse */
+    color: #0056b3; 
 }
