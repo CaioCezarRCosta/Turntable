@@ -6,9 +6,4 @@
     </form>
 </section>
 
-<section id="menu" class="text-center">
-    <nav class="nav justify-content-center mt-1"> <!-- Use mt-1 para um espaçamento menor -->
-        <a class="nav-link" href="catalogo.php">Catálogo</a>
-        <a class="nav-link" href="encomendar.php">Encomendar</a>
-    </nav>
-</section>
+

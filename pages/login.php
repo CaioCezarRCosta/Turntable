@@ -16,7 +16,7 @@
         </header>
 
         <div class="container">
-            <div class="row justify-content-center" style="height: 80vh;">
+            <div class="row justify-content-center" style="height: 100vh;">
                 <div class="col-md-4">
                     <div class="card mt-5">
                         <div class="card-body">
@@ -44,9 +44,9 @@
                             </div>
                             <div class="mt-3 text-center">
                                 <p>Não tem uma conta? <a
-                                        href="criar-conta.php">Crie uma
+                                        href="cadastro.php">Crie uma
                                         agora!</a></p>
-                                <!-- Link para criar conta -->
+                                
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
         </div>
 
         <footer>
-            <?php include '../includes/footer.php'; ?> 
+            <?php include '../includes/footer.php'; ?>
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

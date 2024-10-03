@@ -1,5 +1,5 @@
 <footer class="text-center py-3" style="background-color: #f8f9fa;">
-    <p>&copy; 2024 Vinil Store. Todos os direitos reservados.</p>
+    <p>&copy; 2024 Turntable Treasures. Todos os direitos reservados.</p>
     <a href="sobre.php">Sobre Nós</a> | 
     <a href="contato.php">Contato</a>
 
