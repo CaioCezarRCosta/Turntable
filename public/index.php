@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <title>Home</title>
 </head>
 
@@ -16,7 +16,7 @@
     
 
         <a class="navbar-brand text-white logo" href="#">
-            <img src="http://localhost/vinyl-store-project/assets/images/logo2.png" alt="Logo" style="max-height: 40px;">
+            <img src="" alt="Logo" style="max-height: 40px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +50,7 @@
                     <a class="nav-link text-white" href="#"><i class="bi bi-cart"></i> Carrinho</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="pages/login.php"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+                    <a class="nav-link text-white" href="http://localhost/vinyl-store-project/app/views/login.php"><i class="bi bi-box-arrow-in-right"></i> Login</a>
                 </li>
             </ul>
         </div>

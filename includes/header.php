@@ -1,6 +1,6 @@
 <head>
-    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../public/assets/css/header.css">
 </head>
 <div id="header1" class="d-flex justify-content-between align-items-center p-3">
     <div id="logo">
