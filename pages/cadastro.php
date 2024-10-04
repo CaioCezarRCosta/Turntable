@@ -7,13 +7,15 @@
     <title>Página de Cadastro</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <link rel="stylesheet" href="../assets/css/cadastro.css">
 </head>
 
 <body>
 
     <header>
-        
+        <div class=" navbar d-flex justify-content-center navbar-light pt-5 mb-5" style="width: 100%">
+            <p>A melhor loja de Vinis da América Latina</p>
+        </div>
     </header>
 
     <div class="container">
@@ -71,7 +73,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer class = "mt-5">
         <?php include '../includes/footer.php'; ?>
     </footer>
 

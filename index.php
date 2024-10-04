@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent" style="border:1px solid green;">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent">
     
 
         <a class="navbar-brand text-white logo" href="#">
@@ -23,7 +23,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse " id="navbarNav" style="border:1px solid white;">
+        <div class="collapse navbar-collapse " id="navbarNav">
             
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">

@@ -12,7 +12,7 @@
     <div id="frase">
         <p>A melhor loja de Vinis da América Latina</p>
     </div>
-
+        
     <div id="icone d-flex justify-content-betwenn">
         <a href="../pages/login.php">
             <i class="bi bi-person"></i> Conta

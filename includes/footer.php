@@ -1,4 +1,4 @@
-<footer class="text-center py-3" style="background-color: #f8f9fa;">
+<div class="text-center py-3" style="background-color: #f8f9fa;">
     <p>&copy; 2024 Turntable Treasures. Todos os direitos reservados.</p>
     <a href="sobre.php">Sobre Nós</a> | 
     <a href="contato.php">Contato</a>
@@ -14,4 +14,4 @@
             <i class="bi bi-whatsapp" style="font-size: 1.5rem;"></i>
         </a>
     </div>
-</footer>
+</div>

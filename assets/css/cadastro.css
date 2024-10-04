@@ -10,8 +10,6 @@ body {
 
 .container {
     flex: 1; 
+    
 }
 
-footer {
-    background-color: #f8f9fa; 
-}

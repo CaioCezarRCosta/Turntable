@@ -14,7 +14,9 @@
     <body>
 
         <header>
-            
+        <div class=" navbar d-flex justify-content-center navbar-light pt-5 mb-5 " style="width: 100%">
+            <p>A melhor loja de Vinis da América Latina</p>
+        </div>
         </header>
 <section>
         <div class="container">
@@ -56,7 +58,7 @@
             </div>
         </div>
 </section>
-        <footer>
+        <footer class="mt-5 fixed-bottom">
             <?php include '../includes/footer.php'; ?>
         </footer>
 
