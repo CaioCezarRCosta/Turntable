@@ -1,6 +1,6 @@
 /* Parallax */
 .parallax {
-    background-image: url('http://localhost/vinyl-store-project/assets/images/background-home.png'); 
+    background-image: url('http://localhost/vinyl-store-project/public/assets/images/background-home.png'); 
     height: 50vh;
     background-attachment: fixed;
     background-position: center;

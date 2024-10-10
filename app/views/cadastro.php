@@ -24,7 +24,7 @@
                 <div class="card mt-5">
                     <div class="card-body">
                         <h5 class="card-title text-center">Cadastro</h5>
-                        <form>
+                        <form id="cadastroForm">
                             <div class="mb-3">
                                 <label for="fullName" class="form-label">Nome Completo</label>
                                 <input type="text" class="form-control" id="fullName"
@@ -54,6 +54,10 @@
                                 <input type="date" class="form-control" id="dob" required>
                             </div>
                             <div class="mb-3">
+                                <label for="telefone" class="form-label">Telefone</label>
+                                <input type="text" class="form-control" id="telefone" placeholder="Digite seu telefone">
+                            </div>
+                            <div class="mb-3 mt-4">
                                 <label for="gender" class="form-label">Sexo</label>
                                 <select class="form-select" id="gender" required>
                                     <option value="" disabled selected>Selecione seu sexo</option>
@@ -62,7 +66,8 @@
                                     <option value="other">Outro</option>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
+
+                            <button type="submit" class="btn btn-primary w-100 mt-2">Cadastrar</button>
                         </form>
                         <div class="mt-3 text-center">
                             <p>Já tem uma conta? <a href="login.php">Faça login</a></p>
@@ -73,10 +78,10 @@
         </div>
     </div>
 
-    <footer class = "mt-5">
+    <footer class="mt-5">
         <?php include '../../includes/footer.php'; ?>
     </footer>
-
+    <script src="../../public/assets/js/cadastro.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
