@@ -1,7 +1,15 @@
-<div class="text-center py-3" style="background-color: #f8f9fa;">
-    <p>&copy; 2024 Turntable Treasures. Todos os direitos reservados.</p>
-    <a href="sobre.php">Sobre Nós</a> | 
-    <a href="contato.php">Contato</a>
+<head>
+    <style>
+            .corpo{
+                background-color: #f8f9fa;
+                
+            }
+    </style>
+</head>
+<div class="text-center py-3 corpo" >
+    <p class = "">&copy; 2024 Turntable Treasures. Todos os direitos reservados.</p>
+    <a href="../app/views/sobre.php">Sobre Nós</a> | 
+    <a href="../app/views/contato.php">Contato</a>
 
     <div class="social-icons mt-2">
         <a href="https://facebook.com" target="_blank" aria-label="Facebook">

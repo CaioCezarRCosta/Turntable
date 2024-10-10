@@ -1,0 +1,8 @@
+.container {
+    padding: 20px;
+}
+@media (max-width: 576px) {
+    header p {
+        font-size: 14px;
+    }
+}
